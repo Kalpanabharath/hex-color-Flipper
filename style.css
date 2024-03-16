@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#head{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+    padding: 0px 40px;
+
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+#container>*{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid wheat;
+    outline: none;
+    cursor: pointer;
+    
+}
+#container>*:active{
+    color: black;
+    background-color: aliceblue;
+}
